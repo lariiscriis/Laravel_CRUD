@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* STYLE da view base.blade, comentário: Larissa */
+header{
+    background-color: rgb(252, 181, 192);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#container-flex a{
+    text-decoration: none;
+    color: rgb(252, 32, 65);    
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+#container-flex .botao_login{
+    background-color: rgb(255, 91, 115);
+    color: white;
+}
+
+#container-flex  .botao_login:hover{
+    background-color: rgb(252, 62, 91);
+    color: white;
+    transition: 0.20s ease-in-out;
+    box-shadow: white 0px 3px 8px;
+}
+
+#container-flex h1{
+    color: white; 
+    font-size: 30px;   
+    padding: 0px 10px;
+}
+    
+main{padding: 50px;}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    padding: 2px;
+    background-color: lightpink;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+/* STYLE da view de cadastro/welcome.blade, comentário: Larissa */
+
+#container_cadastro .mb{
+    width: auto;
+    height: auto;
+}
+
+#container_cadastro h2{
+    text-align: center;
+  }
+
+#container_cadastro a{
+    text-align: center;
+  }
+
+#container_cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo{
+    width: 30em;
+    background-color: rgb(255, 223, 228);
+    padding: 2em;
+    border-radius: 3em;
+    box-shadow: rgb(253, 86, 111) 0px 10px 10px;
+  }
+
+#container_cadastro .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem lightpink;
+    border-color: lightpink;
+}
+
+#container_cadastro .btn{
+    background-color: white; 
+    color:  rgb(252, 62, 91);
+    border: none;
+    border-radius: 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+#container_cadastro .btn:hover{
+    background-color: rgb(252, 62, 91);
+    color: white;
+    transition: 0.20s ease-in-out;
+    box-shadow: white 0px 3px 8px;
+}
+#container_cadastro hr{
+    border: 1px solid white;
+
+}
+
+
+  /* STYLE da view de usuarios.blade, comentário: Larissa */
+  .table th{
+    text-align: center;
+  }
+.table .btn{
+background-color: lightpink;
+ border: none;
+ margin: 0.5em;
+ align-items: center;
+}
+.table .btn:hover{
+    background-color: rgba(253, 76, 103, 0.767);
+}
+
+.table .btn2{
+background-color: rgb(252, 21, 56);
+ border: none;
+ margin: 0.5em;
+ text-decoration: none;
+}
+
+.table .btn2:hover{
+    background-color: rgb(252, 21, 56);
+    text-decoration: none;
+
+}
+
+.table table{
+    border: 1px solid rgb(247, 162, 176);
+}
+
+.table{
+    background-color: white;
+
+}
+
+.table th{
+    border: 1px solid rgb(247, 162, 176);
+}
+
+.table td{
+    border: 1px solid rgb(247, 162, 176);
+}
+th {
+background-color: rgba(255, 182, 193, 0.329);
+color: black;
+}
+
+.table:hover{
+    box-shadow: lightpink 0px 3px 8px;
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* STYLE da view sobre.blade, comentário: Larissa */
+#sobre_container ul li::marker{
+    color: lightpink; 
+}
+
+#sobre_container hr{
+    border: 1px solid lightpink;
+}
+
+/* STYLE para a view dashboard, comentário: Larissa */
+.container-custom {
+    background-color: rgb(255, 223, 228);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(248, 54, 83) 0px 3px 8px;
+    width: 45em;
+    margin-top: 100px; 
+  }
+
+  .container-custom  .btn2{
+    background-color: rgb(252, 21, 56);
+     width: 10em;
+     border: none;
+     margin: 0.5em;
+     text-decoration: none;
+    }
+.container-custom .btn2:hover{
+        background-color: rgb(252, 21, 56);
+        text-decoration: none;
+    
+    }
+  .container-custom:hover{
+    box-shadow: rgb(255, 45, 76) 0px 3px 8px;
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+  .img-container img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .info-container {
+    margin-top: 30px;
+    flex: 1;
+  }
+  .container-custom hr {
+    border: 1px solid white;
+  }
+
+
